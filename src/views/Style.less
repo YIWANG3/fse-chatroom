@@ -1,0 +1,99 @@
+.logo {
+  color: white;
+  position: fixed;
+  font-size: 24px;
+  font-weight: 600;
+  left: 20px;
+  top: 14px;
+}
+
+.account {
+  color: #0043D8;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  width: 100%;
+  min-width: 580px;
+
+  .left {
+    width: 100%;
+    height: 100vh;
+    min-height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000178 url('../assets/pattern.svg') no-repeat;
+    background-size: cover;
+    color: white;
+  }
+
+  .right {
+    padding-left: 60px;
+  }
+
+  .big-text {
+    font-size: 48px;
+    font-weight: 900;
+    max-width: 440px;
+  }
+
+  .form {
+    width: 360px;
+    margin-top: 160px;
+    margin-bottom: 100px;
+
+    .form-item {
+      font-size: 16px;
+      margin-bottom: 40px;
+
+      .text {
+        margin-bottom: 6px;
+        font-weight: bold;
+      }
+
+      input {
+        border: none;
+        border-bottom: 1px solid rgba(0, 67, 216, 0.4);
+        width: 280px;
+        font-size: 24px;
+        line-height: 40px;
+        outline: none;
+
+        &:focus {
+          border-bottom: 1px solid rgba(0, 67, 216);
+        }
+      }
+    }
+  }
+
+  .btn {
+    width: 360px;
+    height: 60px;
+    font-weight: 600;
+    color: #0043D8;
+    font-size: 20px;
+    line-height: 60px;
+    cursor: pointer;
+    margin-bottom: 14px;
+
+    .arrow {
+      width: 24px;
+      margin-left: 10px;
+      position: relative;
+      top: 2px;
+    }
+  }
+
+  .append {
+    .text {
+      color: #999;
+      cursor: pointer;
+      text-decoration: none;
+
+      &:hover {
+        color: #0043D8;
+        transition: all 0.5s;
+      }
+    }
+  }
+}
