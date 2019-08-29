@@ -1,6 +1,5 @@
-# im: A CMU FSE Project
-
-## Project setup
+# Chat Room - FSE project
+### Project setup
 ```
 npm install
 ```
