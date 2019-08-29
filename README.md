@@ -24,3 +24,8 @@ node server/index.js
 ```
 mongod
 ```
+
+### Screenshot
+![Register Page](README_IMG/regi.png)
+
+![Chat Room](README_IMG/chat.png)
